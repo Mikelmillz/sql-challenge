@@ -1,2 +1,11 @@
 # sql-challenge
 due Monday  11/4 by 11:59 PM
+
+This read me is going to be short since there was no gitlab for section 9 so I just went off the live chat and videos. I looked at the video from class Data Modeling - shared screen with speaker view for creating the first part for Data Modeling.
+
+The next part was creating the tables with the correct columns for Data Engineering. It was helpful to have this website: https://stackoverflow.com/questions/35338711/cannot-drop-table-users-because-other-objects-depend-on-it so that I could delete my tables if they were not working correctly. Looking at the live chat I was able to make the basis for the tables. Then I was able to import the data given into those tables. I found out that trying to troubleshoot in pgAdmin is not fun, you have to find the error messages and they are not very good at explaining what went wrong. I didn't have a few of my varchar() long enough and they wouldn't import, but after changing all to Varchart(50) (except the sex category), it worked. This site helped me get a better understanding of primary and foreign keys: https://blog.devart.com/postgresql-foreign-key.html
+
+
+The last part was just again looking through the live chat and this zoom video Live chat in Advanced SQL Queries- Shared screen with speaker view. is where I found the descending where Laura talked about it. I also found this website https://joshfrankel.me/blog/calculating-frequency-distribution-in-postgresql/ which gave me a little bit more information when trying make all the data analysis. I also found this site helpful, though I found it a little later in this section which I wish I would have had it sooner: https://joshfrankel.me/blog/calculating-frequency-distribution-in-postgresql/
+
+I was curious about in the submission it says (Optional) Create a Jupyter notebook of the bonus analysis, but I didn't really understand what that was wanting so I didn't do it. Also I didn't see the "Ensure that your repository has regular commits and a thorough" as I just leave this open and add to it when I need to/at the end.
